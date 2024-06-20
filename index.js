@@ -24,6 +24,13 @@ app.get('/shops', (req, res)=>{
     });
 })
 
+app.get('/products', (req, res)=>{
+  fs.readFile(process.cwd()+'/data/products.json', (err, data) => {
+    if (err) throw err;
+    res.send(JSON.parse(data));
+  });
+})
+
 app.get('/shops/:id', (req, res) => {
 		const shopId = req.params.id;
 		fs.readFile(path.join(process.cwd(), 'data', 'shops.json'), (err, data) => {
