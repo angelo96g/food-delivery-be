@@ -32,17 +32,30 @@ app.get('/products', (req, res)=>{
 })
 
 app.get('/shops/:id', (req, res) => {
-		const shopId = req.params.id;
+		const id = req.params.id;
 		fs.readFile(path.join(process.cwd(), 'data', 'shops.json'), (err, data) => {
 			if (err) throw err;
 			const shops = JSON.parse(data);
-			const shop = shops.find(s => +s.id === +shopId);
+			const shop = shops.find(s => +s.id === +id);
 			if (shop) {
 				res.send(shop);
 			} else {
 				res.status(404).send({ error: 'Shop non trovato' });
 			}
 		});
+});
+
+app.get('/products/:shopId', (req, res) => {
+  const shopId = req.params.shopId;
+  fs.readFile(path.join(process.cwd(), 'data', 'products.json'), (err, data) => {
+    if (err) throw err;
+    products = JSON.parse(data).filter(prodottoCorrente => +prodottoCorrente.shopId === +shopId);
+    if (products) {
+      res.send(products);
+    } else {
+      res.status(404).send({ error: 'Prodotto non trovato' });
+    }
+  });
 });
 
 app.post('/shops', (req, res) => {
