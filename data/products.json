@@ -44,7 +44,7 @@
     {
       "name": "Pane con la milza",
       "description": "Panino con milza, caciocavallo, ricotta",
-      "img_url": "http://localhost:3000/img/pane_milza.jpg",
+      "img_url": "http://localhost:3000/img/pane-ca-meusa.jpg",
       "price": 4,
       "shopId": 1
     },
@@ -65,7 +65,7 @@
     {
       "name": "Pasta al forno",
       "description": "Anelletti con salsa di ragù e basilico",
-      "img_url": "http://localhost:3000/img/caponata.jpg",
+      "img_url": "http://localhost:3000/img/pasta-al-forno.jpg",
       "price": 8,
       "shopId": 1
     }
