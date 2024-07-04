@@ -4,49 +4,56 @@
     "denominazione": "Ganci e Figli",
     "indirizzo": "Via Roma, 1",
     "citta": "Palermo",
-    "img": "http://localhost:3000/img/shops/ganci.jpg"
+    "img": "http://localhost:3000/img/shops/ganci.jpg",
+    "rating":"3.7"
   },
   {
     "id": 2,
     "denominazione": "Pizzeria Da Michele",
     "indirizzo": "Via Vittorio Emanuele, 26, Palermo",
     "citta": "Palermo",
-    "img": "http://localhost:3000/img/shops/ganci.jpg"
+    "img": "http://localhost:3000/img/shops/ganci.jpg",
+    "rating":"3.2"
   },
   {
     "id": 3,
     "denominazione": "Trattoria Nonna Maria",
     "indirizzo": "Via Libertà, 78, Palermo",
     "citta": "Palermo",
-    "img": "http://localhost:3000/img/shops/ganci.jpg"
+    "img": "http://localhost:3000/img/shops/ganci.jpg",
+    "rating":"2.7"
   },
   {
     "id": 4,
     "denominazione": "Burger King",
     "indirizzo": "Via Maqueda, 56, Palermo",
     "citta": "Palermo",
-    "img": "http://localhost:3000/img/shops/ganci.jpg"
+    "img": "http://localhost:3000/img/shops/ganci.jpg",
+    "rating":"1.7"
   },
   {
     "id": 5,
     "denominazione": "Ristorante Il Gabbiano",
     "indirizzo": "Lungomare Cristoforo Colombo, 12, Palermo",
     "citta": "Palermo",
-    "img": "http://localhost:3000/img/shops/ganci.jpg"
+    "img": "http://localhost:3000/img/shops/ganci.jpg",
+    "rating":"2.7"
   },
   {
     "id": 6,
     "denominazione": "KFC Palermo",
     "indirizzo": "Via Notarbartolo, 34, Palermo",
     "citta": "Palermo",
-    "img": "http://localhost:3000/img/shops/ganci.jpg"
+    "img": "http://localhost:3000/img/shops/ganci.jpg",
+    "rating":"4.8"
   },
   {
     "id": 7,
     "denominazione": "Ristorante La Brace 2",
     "indirizzo": "Via Roma, 32",
     "citta": "Carini",
-    "img": "http://localhost:3000/img/shops/ganci.jpg"
+    "img": "http://localhost:3000/img/shops/ganci.jpg",
+    "rating":"4.2"
   },
   {
     "id": 8,
