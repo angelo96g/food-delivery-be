@@ -2,7 +2,7 @@
 {
       "name": "Arancina alla carne",
       "description": "Riso, carne di manzo, piselli, salsa di pomodoro, zafferano",
-      "img_url": "http://localhost:3000/img/arancina.jpg",
+      "img_url": "/img/arancina.jpg",
       "price": 2.5,
       "shopId": 1,
       "id": 1
